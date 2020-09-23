@@ -1,0 +1,8 @@
+<form action="/tasks/getAll" method="GET" class="form" >
+
+    <ul>
+        <li><h2>${data.name}</h2></li>
+        <li><strong></strong> ${data.tasks} <strong></strong></li>
+        <li><strong></strong>&ensp;${data.completed === true ? 'Yes' : 'No'}</li>
+    </ul>
+</form>
